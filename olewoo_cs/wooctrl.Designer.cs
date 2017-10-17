@@ -53,6 +53,7 @@
             this.pnlMatchesList.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spltMainSearch)).BeginInit();
             this.spltMainSearch.Panel1.SuspendLayout();
             this.spltMainSearch.Panel2.SuspendLayout();
             this.spltMainSearch.SuspendLayout();
@@ -293,6 +294,7 @@
             this.panel3.ResumeLayout(false);
             this.spltMainSearch.Panel1.ResumeLayout(false);
             this.spltMainSearch.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.spltMainSearch)).EndInit();
             this.spltMainSearch.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
