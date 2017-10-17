@@ -242,7 +242,9 @@ namespace olewoo_cs
                 }
                 return _children;
             }
+            set { _children = value; }
         }
+
         public abstract List<ITlibNode> GenChildren();
         public abstract String Name
         {

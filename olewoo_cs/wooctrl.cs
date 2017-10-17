@@ -188,6 +188,9 @@ namespace olewoo_cs
                 nlst.Sort(new OleNodeComparer(_sort));
                 root.Nodes.Clear();
                 root.Nodes.AddRange(nlst.ToArray());
+                //  update children order
+                var r = (ITlibNode)root.Tag;
+                r.Children = (from n in nlst select (ITlibNode)n.Tag).ToList();
             }
         }
 
