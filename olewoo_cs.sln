@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olewoo_cs", "olewoo_cs\olewoo_cs.csproj", "{01A3B377-BFDB-4679-943E-C897304D7785}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "olewoo_interop", "olewoo_interop\olewoo_interop.vcproj", "{06642CCC-1CD0-4C40-80B5-EE34FED21464}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "olewoo_interop", "olewoo_interop\olewoo_interop.vcxproj", "{06642CCC-1CD0-4C40-80B5-EE34FED21464}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oledump", "oledump\oledump.csproj", "{8A653654-14D5-4975-A0F4-6ED64AA7EF91}"
 EndProject
